@@ -1,8 +1,8 @@
 <?php
-$servidor = "localhost";
-$usuario = "root";
-$senha = "";
-$banco="imedical";
+$servidor = "isabelle.solutionsbox.com.br";
+$usuario = "isabelle_imedicaluser";
+$senha = "ew5FMGwELDp8GS1qk9";
+$banco="isabelle_imedical";
 // Criar conexão
 $conecta = new mysqli($servidor, $usuario, $senha,$banco);
 if ($conecta->connect_error) {
